@@ -8,11 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("/api/v1")
 public class StudyRestController {
 
-	@GetMapping("/test")
-	public ResponseEntity<?> getMethod() {
-		return ResponseEntity.ok().body("Test");
-	}
-	
+
 	@PostMapping("/test/post")
 	public ResponseEntity<?> postMethod() throws Exception {
 		return ResponseEntity.ok().body("test");
