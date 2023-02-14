@@ -21,11 +21,5 @@ public class TestController {
 		return "method/get";
 	}
 	
-	@ResponseBody
-	@PostMapping("/user")
-	public String login() {
-		
-		return "test data(post)";
-	}
 	
 }
