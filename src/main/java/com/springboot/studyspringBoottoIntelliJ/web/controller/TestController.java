@@ -21,5 +21,9 @@ public class TestController {
 		return "method/get";
 	}
 	
+	@GetMapping("/board")
+	public String board() {
+		return "board/index";
+	}
 	
 }

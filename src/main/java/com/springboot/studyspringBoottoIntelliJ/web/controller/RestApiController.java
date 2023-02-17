@@ -29,5 +29,4 @@ public class RestApiController {
 													.password("1234")
 													.build();
 	}
-
 }
